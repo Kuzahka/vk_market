@@ -77,7 +77,7 @@
 
 ```bash
 git clone https://github.com/Kuzahka/vk_market
-cd VK
+cd VK2
 ```
 
 2. **Настройте модуль Go:**
