@@ -76,8 +76,8 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-cd <ИМЯ_ПАПКИ_ПРОЕКТА>
+git clone https://github.com/Kuzahka/vk_market
+cd VK
 ```
 
 2. **Настройте модуль Go:**
@@ -91,7 +91,7 @@ go mod tidy
 ```env
 DATABASE_URL="postgresql://user:password@db:5432/marketplace_db?sslmode=disable"
 PORT="8080"
-JWT_SECRET_KEY="ваш_очень_секретный_ключ_для_токенов_минимум_32_символа"
+JWT_SECRET_KEY="секретный_ключ_для_токенов_минимум_32_символа"
 
 POSTGRES_DB="marketplace_db"
 POSTGRES_USER="user"
